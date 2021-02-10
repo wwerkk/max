@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -73,17 +73,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.599999999999909, 247.5, 150.0, 33.0 ],
 					"text" : "Noise wavetables don't require frequency"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 8.0, 150.0, 20.0 ],
-					"text" : "Glide time"
 				}
 
 			}
