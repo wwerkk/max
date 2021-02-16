@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 184.0, 89.0, 1036.0, 698.0 ],
+		"rect" : [ 184.0, 89.0, 636.0, 698.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1842,7 +1842,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"blinkcolor" : [ 0.490196078431373, 0.67843137254902, 1.0, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "button",
 					"numinlets" : 1,
