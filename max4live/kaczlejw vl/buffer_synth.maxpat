@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 72.0, 79.0, 821.0, 551.0 ],
+		"rect" : [ 577.0, 284.0, 821.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
 					"id" : "obj-16",
-					"maxclass" : "number",
+					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 706.333338618278503, 63.0, 50.0, 22.0 ]
+					"patching_rect" : [ 706.333338618278503, 67.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -361,7 +362,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 31.226834988799578, "ticks" ],
-						"originaltempo" : 2732.348111658455309,
+						"originaltempo" : 4652.376514445478279,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
