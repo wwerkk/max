@@ -12,17 +12,17 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>wkw.noisfill~</string>
+	<string>wkw.buffsort~</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.cycling74.wkw-noisfill-</string>
+	<string>com.cycling74.wkw-buffsort-</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>
-	<string>wkw.noisfill~ 1.0.0 - Copyright (c) 2018 Cycling '74</string>
+	<string>wkw.buffsort~ 0.1. - Copyright (c) 2018 Cycling '74</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>0.1.</string>
 	<key>CFBundleSignature</key>
 	<string>max2</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -30,7 +30,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
+	<string>0.1.</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
