@@ -130,8 +130,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.333338618278503, 37.0, 88.0, 22.0 ],
-					"text" : "receive sizems"
+					"patching_rect" : [ 706.333338618278503, 37.0, 100.0, 22.0 ],
+					"text" : "receive ---sizems"
 				}
 
 			}
