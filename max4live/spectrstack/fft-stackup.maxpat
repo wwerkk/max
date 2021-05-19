@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 116.0, 264.0, 817.0, 556.0 ],
+		"rect" : [ 231.0, 358.0, 817.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 665.0, 303.0, 32.0, 22.0 ],
+					"patching_rect" : [ 653.0, 259.0, 32.0, 22.0 ],
 					"text" : "/ 64."
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 408.0, 231.0, 32.0, 22.0 ],
+					"patching_rect" : [ 407.5, 214.0, 32.0, 22.0 ],
 					"text" : "/~ 1."
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 665.0, 274.0, 88.0, 22.0 ],
+					"patching_rect" : [ 653.0, 214.0, 88.0, 22.0 ],
 					"text" : "peakamp~ 100"
 				}
 
@@ -212,10 +212,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 28.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -239,8 +235,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 174.5, 203.0, 85.0, 22.0 ],
-					"text" : "index~ ---ice 1"
+					"patching_rect" : [ 174.5, 203.0, 94.0, 22.0 ],
+					"text" : "index~ #1 1"
 				}
 
 			}
@@ -250,9 +246,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.5, 367.627395999999976, 82.0, 22.0 ],
+					"patching_rect" : [ 249.5, 404.627395999999976, 91.0, 22.0 ],
 					"style" : "newobjBrown",
-					"text" : "poke~ ---ice 2"
+					"text" : "poke~ #1 2"
 				}
 
 			}
@@ -262,9 +258,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.5, 367.627395999999976, 82.0, 22.0 ],
+					"patching_rect" : [ 148.5, 404.627395999999976, 91.0, 22.0 ],
 					"style" : "newobjBrown",
-					"text" : "poke~ ---ice 1"
+					"text" : "poke~ #1 1"
 				}
 
 			}
@@ -299,8 +295,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 507.5, 142.0, 85.0, 22.0 ],
-					"text" : "index~ ---ice 2"
+					"patching_rect" : [ 507.5, 142.0, 94.0, 22.0 ],
+					"text" : "index~ #1 2"
 				}
 
 			}
@@ -311,8 +307,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 407.5, 142.0, 85.0, 22.0 ],
-					"text" : "index~ ---ice 1"
+					"patching_rect" : [ 407.5, 142.0, 94.0, 22.0 ],
+					"text" : "index~ #1 1"
 				}
 
 			}
@@ -331,7 +327,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 417.0, 232.5, 674.5, 232.5 ],
+					"midpoints" : [ 417.0, 171.5, 662.5, 171.5 ],
 					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
@@ -348,7 +344,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"midpoints" : [ 517.0, 227.75, 456.0, 227.75 ],
+					"midpoints" : [ 517.0, 207.75, 456.0, 207.75 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -408,7 +404,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"midpoints" : [ 674.5, 335.0, 486.5, 335.0, 486.5, 220.0, 430.5, 220.0 ],
+					"midpoints" : [ 662.5, 335.0, 479.25, 335.0, 479.25, 203.0, 430.0, 203.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -416,7 +412,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 309.5, 198.813697999999988, 189.5, 198.813697999999988 ],
+					"midpoints" : [ 309.5, 198.813697999999988, 194.0, 198.813697999999988 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -476,7 +472,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 184.0, 138.813697999999988, 290.5, 138.813697999999988 ],
+					"midpoints" : [ 184.0, 138.813697999999988, 295.0, 138.813697999999988 ],
 					"order" : 3,
 					"source" : [ "obj-5", 2 ]
 				}
